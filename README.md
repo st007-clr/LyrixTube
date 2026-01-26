@@ -141,7 +141,7 @@ flutter run -d ios
 
 | Method | Endpoint | Description | Example |
 |--------|----------|-------------|---------|
-| POST | `/api/lyrics` | Get lyrics for a song | `POST http://localhost:3000/api/lyrics` |
+| POST | `/api/generate-lyrics` | Get lyrics for a song | `POST http://localhost:3000/api/generate-lyrics` |
 
 #### Request Format
 ```json
