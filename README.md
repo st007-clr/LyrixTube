@@ -34,8 +34,11 @@ Built with Flutter for a beautiful UI and Node.js/Express for a robust backend.
 - **Utilities**: CORS, dotenv for environment configuration
 
 ## Demo
-![Home Screen](demo/screen1.png)
-![Generated Lyrics Screen](demo/screen2.png)
+
+| Home | Lyrics |
+|------|--------|
+| <img src="demo/screen1.png" width="250"/> | <img src="demo/screen2.png" width="250"/> |
+
 
 ## 📋 Project Structure
 
